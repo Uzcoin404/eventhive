@@ -1,29 +1,77 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("./fonts.css");
+@import url("../node_modules/swiper/swiper-bundle.min.css");
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --primary: #7848f4;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Product Sans";
+}
+.navbar {
+  padding: 50px 0 30px;
+}
+.btn {
+  padding: 0 40px;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 5px;
+  height: 49px;
+  line-height: 49px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.btn.outlined {
+  background-color: transparent;
+}
+.btn.outlined:hover {
+  border-color: var(--primary);
+}
+
+.hero_title {
+  font-size: 64px;
+  max-width: 560px;
+  padding-top: 100px;
+}
+.hero_slide {
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.hero_swiper {
+  padding: 0 60px;
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(242, 242, 242, 0.2);
+    border-radius: 50%;
+    &:hover {
+      background-color: rgba(242, 242, 242, 0.5);
+    }
+  }
+  .swiper-button-prev {
+    left: 85px;
+  }
+  .swiper-button-next {
+    right: 85px;
+  }
+}
+
+.search_bar{
+  position: relative;
+  .container{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 37px 70px;
+    border-radius: 20px;
+    z-index: 10;
+  }
 }
 
 @layer utilities {

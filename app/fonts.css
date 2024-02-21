@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-MediumItalic.eot');
+    src: url('../public/fonts/ProductSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-MediumItalic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-MediumItalic.woff') format('woff'),
+        url('../public/fonts/ProductSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Thin.eot');
+    src: url('../public/fonts/ProductSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Thin.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Thin.woff') format('woff'),
+        url('../public/fonts/ProductSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-ThinItalic.eot');
+    src: url('../public/fonts/ProductSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-ThinItalic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-ThinItalic.woff') format('woff'),
+        url('../public/fonts/ProductSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Regular.eot');
+    src: url('../public/fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Regular.woff') format('woff'),
+        url('../public/fonts/ProductSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Medium.eot');
+    src: url('../public/fonts/ProductSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Medium.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Medium.woff') format('woff'),
+        url('../public/fonts/ProductSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Italic.eot');
+    src: url('../public/fonts/ProductSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Italic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Italic.woff') format('woff'),
+        url('../public/fonts/ProductSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-BlackItalic.eot');
+    src: url('../public/fonts/ProductSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-BlackItalic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-BlackItalic.woff') format('woff'),
+        url('../public/fonts/ProductSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-BoldItalic.eot');
+    src: url('../public/fonts/ProductSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-BoldItalic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-BoldItalic.woff') format('woff'),
+        url('../public/fonts/ProductSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-LightItalic.eot');
+    src: url('../public/fonts/ProductSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-LightItalic.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-LightItalic.woff') format('woff'),
+        url('../public/fonts/ProductSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Black.eot');
+    src: url('../public/fonts/ProductSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Black.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Black.woff') format('woff'),
+        url('../public/fonts/ProductSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Light.eot');
+    src: url('../public/fonts/ProductSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Light.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Light.woff') format('woff'),
+        url('../public/fonts/ProductSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../public/fonts/ProductSans-Bold.eot');
+    src: url('../public/fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/ProductSans-Bold.woff2') format('woff2'),
+        url('../public/fonts/ProductSans-Bold.woff') format('woff'),
+        url('../public/fonts/ProductSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../public/fonts/DMSans-Bold.eot');
+    src: url('../public/fonts/DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/DMSans-Bold.woff2') format('woff2'),
+        url('../public/fonts/DMSans-Bold.woff') format('woff'),
+        url('../public/fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../public/fonts/DMSans-Regular.eot');
+    src: url('../public/fonts/DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../public/fonts/DMSans-Regular.woff') format('woff'),
+        url('../public/fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../public/fonts/DMSans-Medium.eot');
+    src: url('../public/fonts/DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/DMSans-Medium.woff2') format('woff2'),
+        url('../public/fonts/DMSans-Medium.woff') format('woff'),
+        url('../public/fonts/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
